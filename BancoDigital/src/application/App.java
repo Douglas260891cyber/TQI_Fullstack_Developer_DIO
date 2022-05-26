@@ -1,5 +1,6 @@
 package application;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 import entities.ContaCorrente;
@@ -39,5 +40,19 @@ public class App {
         cc.imprimeDadosConta();
         System.out.println();
         cp.imprimeDadosConta();
+=======
+import entities.ContaCorrente;
+import entities.ContaPoupanca;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+           // Scanner sc = new Scanner(System.in);
+           ContaCorrente cc = new ContaCorrente(12, 32222, 3.000);
+           ContaPoupanca cp = new ContaPoupanca(12, 43333, 2.000); 
+   
+           
+           cc.imprimeDadosConta();
+           cp.imprimeDadosConta();
+>>>>>>> 761bec10dc468237c2d44276bb6c42636f7b45e7
     }
 }
